@@ -1,0 +1,3 @@
+/home/zibo/Desktop/ziboRoboCup/CMakeFiles/rebuild_cache.dir
+/home/zibo/Desktop/ziboRoboCup/CMakeFiles/agentspark.dir
+/home/zibo/Desktop/ziboRoboCup/CMakeFiles/edit_cache.dir

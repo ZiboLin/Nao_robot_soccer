@@ -1,0 +1,114 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/zibo/Downloads/utaustinvilla3d-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6de7c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6de7c.dir/build.make CMakeFiles/cmTC_6de7c.dir/build
+make[1]: Entering directory '/home/zibo/Downloads/utaustinvilla3d-master/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6de7c.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_6de7c.dir/CheckSymbolExists.c.o   -c /home/zibo/Downloads/utaustinvilla3d-master/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_6de7c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6de7c.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_6de7c.dir/CheckSymbolExists.c.o  -o cmTC_6de7c 
+CMakeFiles/cmTC_6de7c.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_6de7c.dir/build.make:97: recipe for target 'cmTC_6de7c' failed
+make[1]: *** [cmTC_6de7c] Error 1
+make[1]: Leaving directory '/home/zibo/Downloads/utaustinvilla3d-master/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_6de7c/fast' failed
+make: *** [cmTC_6de7c/fast] Error 2
+
+File /home/zibo/Downloads/utaustinvilla3d-master/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/zibo/Downloads/utaustinvilla3d-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_23495/fast"
+/usr/bin/make -f CMakeFiles/cmTC_23495.dir/build.make CMakeFiles/cmTC_23495.dir/build
+make[1]: Entering directory '/home/zibo/Downloads/utaustinvilla3d-master/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_23495.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_23495.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_23495
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23495.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_23495.dir/CheckFunctionExists.c.o  -o cmTC_23495 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_23495.dir/build.make:97: recipe for target 'cmTC_23495' failed
+make[1]: *** [cmTC_23495] Error 1
+make[1]: Leaving directory '/home/zibo/Downloads/utaustinvilla3d-master/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_23495/fast' failed
+make: *** [cmTC_23495/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/zibo/Desktop/utaustinvilla3d-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a1c25/fast"
+make[1]: Entering directory '/home/zibo/Desktop/utaustinvilla3d-master/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_a1c25.dir/build.make CMakeFiles/cmTC_a1c25.dir/build
+make[2]: Entering directory '/home/zibo/Desktop/utaustinvilla3d-master/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a1c25.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_a1c25.dir/CheckSymbolExists.c.o   -c /home/zibo/Desktop/utaustinvilla3d-master/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a1c25
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1c25.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_a1c25.dir/CheckSymbolExists.c.o  -o cmTC_a1c25 
+CMakeFiles/cmTC_a1c25.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_a1c25.dir/build.make:97: recipe for target 'cmTC_a1c25' failed
+make[2]: *** [cmTC_a1c25] Error 1
+make[2]: Leaving directory '/home/zibo/Desktop/utaustinvilla3d-master/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a1c25/fast' failed
+make[1]: *** [cmTC_a1c25/fast] Error 2
+make[1]: Leaving directory '/home/zibo/Desktop/utaustinvilla3d-master/CMakeFiles/CMakeTmp'
+
+File /home/zibo/Desktop/utaustinvilla3d-master/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/zibo/Desktop/utaustinvilla3d-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cfda5/fast"
+make[1]: Entering directory '/home/zibo/Desktop/utaustinvilla3d-master/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_cfda5.dir/build.make CMakeFiles/cmTC_cfda5.dir/build
+make[2]: Entering directory '/home/zibo/Desktop/utaustinvilla3d-master/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cfda5.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_cfda5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cfda5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cfda5.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_cfda5.dir/CheckFunctionExists.c.o  -o cmTC_cfda5 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_cfda5.dir/build.make:97: recipe for target 'cmTC_cfda5' failed
+make[2]: *** [cmTC_cfda5] Error 1
+make[2]: Leaving directory '/home/zibo/Desktop/utaustinvilla3d-master/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_cfda5/fast' failed
+make[1]: *** [cmTC_cfda5/fast] Error 2
+make[1]: Leaving directory '/home/zibo/Desktop/utaustinvilla3d-master/CMakeFiles/CMakeTmp'
+
+
