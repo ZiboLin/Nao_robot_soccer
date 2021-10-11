@@ -16,9 +16,9 @@ Built from the codebase released by Austinvilla team
 Have rcssserver3d and roboviz simulator avaliable 
 Then,
 
-'''
+```
 ./start.sh
-'''
+```
  at the parent folder 
 
 Main strategy is implemented in " behaviors/simplesoccer.cc " 
