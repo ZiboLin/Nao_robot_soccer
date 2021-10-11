@@ -1,5 +1,5 @@
 # Robotic_soccer-
-Build from the codebase released by Austinvilla team 
+Built from the codebase released by Austinvilla team 
 
 #What is done 
  * More stable walk
